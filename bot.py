@@ -1,6 +1,3 @@
-
-ext-kpp-lcistra-mon <ext-kpp-lcistra-mon@ozon.ru>	15 ноября 2026 г. в 16:46
-Кому: "maksbalahenko212@gmail.com" <maksbalahenko212@gmail.com>
 import asyncio
 
 import logging
