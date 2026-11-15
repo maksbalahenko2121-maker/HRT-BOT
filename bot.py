@@ -406,7 +406,7 @@ def get_card_text(user):
 
     p_bar = make_progress_bar(energy, need)
 
-    amulet_status = "🔥 Активен (50–150⚡)" if amulet_until > now else "💤 Спит (1–50⚡)"
+    amulet_status = "🔥 Активен (50–100⚡)" if amulet_until > now else "💤 Спит (1–50⚡)"
 
  
 
@@ -466,7 +466,7 @@ def get_shop_text():
 
         "🔮 <b>Амулет удачи (40 ⭐)</b>\n"
 
-        "└ На 48 часов отменяет лень героя — выпадает строго от <b>50 до 150⚡</b> за сбор!\n\n"
+        "└ На 48 часов отменяет лень героя — выпадает строго от <b>50 до 100⚡</b> за сбор!\n\n"
 
         "📦 <b>Кейс с удачей (25 ⭐)</b>\n"
 
