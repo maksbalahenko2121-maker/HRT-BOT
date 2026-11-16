@@ -1871,7 +1871,23 @@ async def main():
  
 
  
+for handler in dp.message.handlers:
 
+    if handler.callback == _orig_start:
+
+        handler.callback = cmd_start_with_ref
+
+    elif handler.callback == _orig_cmd_farm:
+
+        handler.callback = cmd_farm_with_ref
+
+ 
+
+for handler in dp.callback_query.handlers:
+
+    if handler.callback == _orig_cb_farm:
+
+        handler.callback = cb_farm_with_ref
 if __name__ == "__main__":
 
     asyncio.run(main())
